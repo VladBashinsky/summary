@@ -1,0 +1,1107 @@
+::-webkit-scrollbar{
+
+width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(0deg, rgba(220,202,135,1) 100%,
+  rgba(222,202,134,.5) 50%, rgba(220,202,135,0.24) 25%);
+  box-shadow:  0 0 2px rgba(0, 0, 0, .2) inset;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-family:"Cormorant Upright";
+  color: #fff;
+}
+ul,li {
+  list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+/* -------------- */
+.header {
+  background-color: #000;
+  padding-top: 32px;
+}
+
+.haeder_wrapepr{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo_title{
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 3px;
+}
+
+.nav_list{
+  display: flex;
+  align-items: center;
+}
+.nav_item{
+  margin-left: 32px;
+}
+
+.nav_link{
+  font-size: 16px;
+  font-family: 'open sans';
+}
+.nav_link:hover{
+  text-decoration: underline;
+}
+
+.log_in{
+  align-items: center;
+}
+
+
+.button{
+  background: none;
+  border: none;
+  font-family: 'open sans';
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  margin-right: 50px;
+}
+.button:before{
+  content: "";
+  width: 1px;
+  height: 52px;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%,
+rgba(255,255,255,1) 49%, rgba(0,0,0,1) 100%);
+  position: absolute;
+  top: -50%;
+  right: -30px;
+
+}
+
+.button_book{
+    background: none;
+  border: none;
+  font-family: 'open sans';
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+/* ----------HEADER_END---------- */
+.main{
+  background-color: #000;
+  height: 100vh;
+}
+.main_block{
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1600px;
+  padding-top: 95px;
+  justify-content: space-between;
+}
+
+.main_title{
+  font-size: 23px;
+  position: absolute;
+  left: 18%;
+}
+.img_title{
+  position: absolute;
+  left: 18%;
+  top: 42%;
+}
+.main_text{
+  display: grid;
+   grid-column-start: 2fr; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin-top: 10%;
+  font-family: 'Cormorant Upright';
+  letter-spacing: 0.04em;
+
+}
+.span {
+  display: grid   ;
+  margin-top: 5px;
+}
+.main_img{
+  position: absolute;
+  right: 0;
+  top: 95px;
+}
+.title_{
+  margin-left: 290px;
+}
+
+.title{
+  margin-top: 2rem;
+}
+
+.title{ 
+  font-family: "Cormorant Upright";
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-size: 90px;
+  font-weight: 700;
+  color:#DCCA87;
+}
+
+.subtitle_{
+  width: 100%;
+  font-size: 16px;
+  color: #aaa;
+  max-width: 453px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.btn{
+  color: #000;
+  background-color: #DCCA87;
+  padding: 8px 32px;
+  font-size: 16px;
+  font-family: "Cormorant Upright";
+  cursor: pointer;
+  border: none;
+  transition: .2s linear;
+}
+.btn:hover {
+  background-color: #a89c70;
+}
+
+/* ----------Main-------- */
+.section {
+  position: relative;
+  background: url(/img/BG.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10rem;
+  
+}
+
+
+.img__center{
+  position: relative;
+  padding-bottom: 5rem;
+}
+
+.knife_img{
+  position: absolute;
+  top: -30%;
+  left: 47%;
+}
+
+.img_center{
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.about{
+  position: absolute;
+  top: 25%;
+  left: 27%;
+  z-index: 1;
+  text-align: right;
+}
+
+.title_about{
+  font-size: 64px;
+  color: #DCCA87;
+  font-family: "Cormorant Upright";
+  line-height: 130%;
+}
+
+.img_about{
+  margin-bottom: 32px;
+}
+
+.subtitle_about{
+  width: 100%;
+  max-width: 523px;
+  text-align: right;
+  color: #aaa;
+  margin-bottom: 40px;
+}
+
+.btn_about{
+  color: #000;
+  background-color: #DCCA87;
+  padding: 8px 32px;
+  font-size: 16px;
+  font-family: "Cormorant Upright";
+  cursor: pointer;
+  border: none;
+  transition: .2s linear;
+}
+
+.btn_about:hover{
+  background-color: #a89c70;
+}
+
+.our{
+  position: absolute;
+  top: 25%;
+  left: 58%;
+  z-index: 1;
+}
+
+.subtitle_our{
+  width: 100%;
+  max-width: 523px;
+  text-align: left;
+  color: #aaa;
+  margin-bottom: 40px;
+}
+
+/* About_Us_END */
+
+
+.book_a_table{
+  background-color: #000;
+  position: relative;
+  height: 80vh;
+}
+
+.img_table{
+  position: absolute;
+  top: -3rem;
+  right: 100px;
+}
+
+.table_title{
+  font-size: 23px;
+  font-weight: 700;
+  
+}
+
+
+.img_block{
+  margin: 0 auto;
+  align-items: center;
+}
+.block_info{
+  margin: -8rem auto;
+  text-align: center;
+}
+
+.table_block{
+  border: 1px solid rgba(220, 202, 135, .2);
+  width: 100%;
+  max-width: 700px;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  padding: 150px;
+  z-index: 100;
+}
+
+.book_title{
+  font-size: 64px;
+  font-weight: 600;
+  font-family: "Cormorant Upright";
+  color: #DCCA87;
+}
+
+
+.custom-select{
+  position: relative;
+  font-family: "Cormorant Upright" ;
+  font-size: 16px;
+  align-items: center;
+  color: #AAA;
+}
+
+
+.custom-select select {
+  display: none;
+}
+
+.select-selected {
+  background-color: #000;
+  border: 1px solid #F5EFDB;
+  padding: 16px;
+}
+
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+  top: 7px;
+}
+
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid rgba(220, 202, 135, .8);
+  cursor: pointer;
+}
+
+
+.select-items {
+  position: absolute;
+  background-color: none;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(241, 239, 219, 0.1);
+}
+
+.flex {
+  display: flex;
+  margin-top: 150px;
+}
+
+.custom__items{
+  margin-left: 15px;
+}
+
+
+.button_book_{
+  color: #000;
+  background-color: #DCCA87;
+  padding: 8px 32px;
+  font-size: 16px;
+  font-family: "Cormorant Upright";
+  cursor: pointer;
+  border: none;
+  transition: .2s linear;
+  margin: 50px 150px 0px 270px
+}
+
+.button_book_:hover{
+  background-color: #a89c70;
+}
+
+/* Section_table END */
+
+
+.bar_menu{
+  position: relative;
+  background-image: url(img/bar_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.img_bar {
+  position: absolute;
+  top: -3rem;
+  left: 100px;
+}
+
+.bar_title {
+  font-size: 64px;
+  font-weight: 600;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  line-height: 2.5;
+}
+
+.bar_text:first-child {
+  text-decoration: underline 3px;
+}
+
+/* Bar_menu */
+
+.todays {
+  background-color: #000;
+  position: relative;
+  height: auto;
+}
+
+.todays_title{
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.block_todays{
+  align-items: center;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.img_block_todays{
+  margin: 0 auto;
+  align-items: center;
+}
+.todays_main_title {
+  font-size: 64px;
+  font-weight: 600;
+  font-family: "Cormorant Upright";
+  color: #DCCA87;
+  padding-bottom: 7rem;
+}
+
+
+.menu_today{
+  display: flex;
+  justify-content: center;
+}
+
+.main_text{
+  font-size: 45px;
+  font-weight: 600;
+  width: 100%;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+.sale_menu{
+  display: flex;
+  align-items: center;
+}
+.title_today_menu{
+  font-size: 23px;
+  font-weight: 700;
+  color: #DCCA87;
+  position: relative;
+  width: 100%;
+  max-width: 50rem;
+}
+
+.title_today_menu::before {
+  content: "";
+  width: 119px;
+  height: 2px;
+  background-color: #fafafa;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 12rem;
+  z-index: 10;
+}
+
+.sale_menu p {
+  font-size: 23px;
+  font-weight: 700;
+  margin-left: 10rem;
+}
+
+
+.subtext{
+  color: #aaa;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  font-family: "Open Sans";
+}
+
+.img{
+  margin: 0 5rem 0 5rem;
+  margin-top: 4rem;
+}
+
+.main_todays{
+  padding-bottom: 2rem;
+}
+
+.today_btn{
+  color: #000;
+  background-color: #DCCA87;
+  padding: 8px 32px;
+  font-size: 16px;
+  font-family: "Cormorant Upright";
+  cursor: pointer;
+  border: none;
+  transition: .2s linear;
+  margin-left: 45%;
+}
+
+/* Main_todays */
+
+.info {
+  background-image: url(/img/BG_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  position: relative;
+  padding: 2rem;
+}
+
+
+.info_text{
+  position: absolute;
+  top: 20%;
+  left: 55%;
+
+}
+
+.up_title{
+  line-height: 30px;
+}
+.img_info{
+  margin-left: 20rem;
+}
+.mid_title{
+  font-size: 64px;
+  font-weight: 600;
+  color: #DCCA87;
+  font-family: 'Cormorant Upright';
+  line-height: 89px;
+  padding-bottom: 78px;
+}
+.lorem_title{
+  font-size: 16px;
+  color: #AAA;
+  font-style: italic;
+  width: 100%;
+  max-width: 508px;
+  padding-bottom: 6rem;
+}
+
+.name_text{
+  font-size: 32px;
+  font-family: 'Cormorant Upright';
+  color: #DCCA87;
+}
+.name_text span {
+  color: #aaa;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
+
+.last_text{
+  padding-top: 5rem;
+  font-family: 'Cormorant Upright';
+  font-size: 64px;
+  font-style: italic;
+  color: #aaa;
+  opacity: .1;
+}
+
+/* Info_block */
+.Testimony{
+  position: relative;
+  background-color: #000;
+  height: 100vh;
+}
+
+
+.img_table_second{
+  position: absolute;
+  top: -3rem;
+  right: 100px;
+}
+
+.Testimony_title{
+  font-size: 23px;
+}
+
+.Testimony_up_text {
+  font-size: 23px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 5rem;
+  line-height: 35px;
+}
+
+.Testimony_main_title{
+  font-size: 64px;
+  color: #DCCA87;
+  margin-top: 1rem;
+}
+
+.customers {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5rem auto;
+}
+
+.customers_title{
+  width: 100%;
+  max-width: 412px;
+  font-style: italic;
+  color: #aaa;
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 2rem;
+}
+
+.customers_prof{
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+.customers_img{
+  position: relative;
+}
+.suctomers_text {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+
+.customers_name{
+  color: #DCCA87;
+  font-size: 32px;
+  font-family: "Cormorant Upright";
+  margin-bottom: 1rem;
+}
+
+.customires_block{
+  width: 30%;
+}
+/* Testimony */
+
+.Awards{
+  background-image: url(img/background_awards.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.awards_title{
+  font-weight: 700;
+  font-size: 23px;
+  font-family: "Cormorant Upright";
+}
+
+.awards_title_second{
+  font-size: 64px;
+  font-weight: 600;
+  color: #DCCA87;
+}
+
+.awrds_block{
+  text-align: left;
+  padding: 20rem;
+}
+
+.raiting{
+  display: grid;
+  grid-template-columns: 30% 30%;
+  
+}
+
+.raiting_item_title{
+  font-size: 23px;
+  font-weight: 700;
+  font-family:"Cormorant Upright";
+  color: #DCCA87;
+  margin-bottom: 1rem;
+}
+.raiting_item_text{
+  width: 100%;
+  max-width: 13rem;
+}
+
+.raiting_item_subtitle{
+  color: #AAA;
+  font-size: 16px;
+  line-height: 27px;
+  font-family: "Open sans";
+}
+
+.raiting_item{
+  margin-top: 5rem;
+  position: relative;
+}
+
+.awrds_block{
+  position: relative;
+}
+
+.raiting_img{
+  position: absolute;
+  top: 15rem;
+  left: 65rem;
+}
+
+
+.raiting_item_text{
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+
+/* Awards_end */
+
+.blog{
+  background-color: #000;
+  height: auto;
+  padding-bottom: 10em;
+}
+
+
+.blog_header{
+  text-align: center;
+  padding: 5em 0 5em 0;
+  
+}
+
+
+.blog_title{
+  font-size: 23px;
+  font-weight: 700;
+  font-family: 'Cormorant Upright';
+  
+}
+
+.subtitle{
+  font-size: 64px;
+  font-weight: 600;
+  color: #DCCA87;
+  text-align: center;
+  max-width: 100%;
+}
+
+
+.blog_block{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.blog_sub_img_title{
+  font-size: 16px;
+  font-family: "open sans";
+  color: #fafafa;
+}
+
+.blog_img_text{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+
+.img_link{
+  font-size: 32px;
+  color: #DCCA87;
+  text-transform: capitalize;
+
+}
+
+.img_link:hover{
+  text-decoration: underline;
+}
+
+.lorem{
+  max-width: 412px;
+  width: 100%;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  color: #AAA;
+  margin: 2em 0 2em 0;
+}
+
+.read{
+  color: #DCCA87;
+  font-family: 'Cormorant Upright';
+}
+
+.read:hover{
+  text-decoration: underline;
+}
+
+.more{
+  color: #000;
+  background-color: #DCCA87;
+  padding: 8px 32px;
+  font-size: 16px;
+  font-family: "Cormorant Upright";
+  cursor: pointer;
+  border: none;
+  transition: .2s linear;
+}
+
+.more_btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+.more:hover{
+ background-color: #a89c70;
+}
+
+.img_table_second_{
+  position: absolute;
+  right: 100px;
+  transform: rotateY(-250px);
+}
+
+.gallery{
+  height: 100vh;
+  background-color: #000;
+}
+
+.gallary_text{
+  font-size: 23px;
+  font-family: 'Cormorant Upright';
+}
+
+.gallary_title{
+  font-size: 64px;
+  font-weight: 600;
+  font-family: 'Cormorant Upright';
+  color: #DCCA87;
+}
+
+.gallary_lorem{
+  font-size: 16px;
+  color: #AAA;
+  font-family: 'sans Open';
+  width: 100%;
+  max-width: 401px;
+  margin-top: 1em;
+  line-height: 28px;
+}
+
+
+.gallary_title_{
+  padding: 10em 0 0 35em;
+}
+
+.gallary_btn{
+  color: #000;
+  background-color: #DCCA87;
+  padding: 8px 32px;
+  font-size: 16px;
+  font-family: "Cormorant Upright";
+  cursor: pointer;
+  border: none;
+  transition: .2s linear;
+}
+
+.gallary_btn:hover{
+  background-color: #a89c70;
+}
+.gallary_btn_position{
+  margin-top: 3em;
+}
+
+.gallery{
+  display: flex;
+  margin: 0;
+}
+
+.photo_item{
+  position: relative;
+  background-color: #000;
+  padding: 0;
+  height: 100%;
+  max-height: 400px;
+}
+
+
+.gallary_photo{
+  display: flex;
+}
+
+
+.photo_item:hover .photo_ img{
+  opacity: .5;
+}
+
+.photo_item:hover .social_item{
+ opacity: 1;
+}
+.photo_{
+  z-index: 1;
+}
+
+.photo_ img {
+  transition: opacity .2s linear;
+}
+
+.social_item{
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  opacity: 0;
+  transition: opacity .2s linear;
+}
+
+
+
+.photo_item {
+  margin: 5em 2em 0 0; 
+}
+
+.gallery{
+  position: relative;
+}
+
+.img_section{
+  position: absolute;
+  left: 5%;
+  top: 55%;
+}
+/* SOCIAL_END */
+.footer{
+  background-image: url(img/bg_footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+  height: auto;
+}
+
+.newslatter_title{
+  font-size: 23px;
+  font-weight: 700;
+  font-family: 'Cormorant Upright';
+}
+
+.newslatter_text{
+  font-size: 64px;
+  font-weight: 600;
+  color: #DCCA87;
+}
+
+.newslatter_subtitle{
+  font-size: 16px;
+  font-family: 'Open Sans';
+}
+
+.Newsletter{
+  text-align: center;
+  border: 1px solid #DCCA8733;
+  background-color: #0C0C0C;
+  max-width: 80em;
+  padding: 2em 5em 2em 5em;
+  position: absolute;
+  top: -10em;
+  left: 30%;
+}
+
+
+.input{
+  background-color: #0C0C0C;
+  border: 1px solid #F5EFDB;
+  width: 335px;
+  height: 2em;
+  padding: 1em 1em;
+  color: #aaa;
+  font-family: 'Cormorant Upright';
+}
+
+.Subscribe{
+  color: #000;
+  background-color: #DCCA87;
+  padding: .5em 1.5em;
+  margin-left: .5em;
+  font-size: 16px;
+  font-family: "Cormorant Upright";
+  cursor: pointer;
+  border: none;
+  transition: .2s linear; 
+}
+
+.label{
+  margin-top: 5em;
+}
+
+
+.footer_info{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25em;
+  padding-bottom: 5em;
+}
+
+
+.contact_text{
+  font-size: 32px;
+  color: #F5EFDB;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.li_text_item{
+  color: #aaa;
+  font-family: 'Open Sans';
+  line-height: 175%;
+  text-align: center;
+}
+
+.logo_text{
+  font-size: 64px;
+  font-family: 'Cormorant Upright';
+  text-transform: uppercase;
+  color: #DCCA87;
+  margin-bottom: 1em;
+}
+
+.logo_block{
+  text-align: center;
+}
+
+.logo_subtitle{
+  font-family: 'Open Sans';
+  text-align: center;
+  margin-bottom: 1em; 
+}
+
+.social_footer_item{
+  margin-left: 1em;
+}
+
+.logo_block img{
+  margin-bottom: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
