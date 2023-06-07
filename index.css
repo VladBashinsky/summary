@@ -198,11 +198,10 @@ rgba(255,255,255,1) 49%, rgba(0,0,0,1) 100%);
 /* ----------Main-------- */
 .section {
   position: relative;
-  background: url(/img/BG.jpg);
+  background: url(img/back.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 10rem;
-  
 }
 
 
@@ -556,10 +555,9 @@ rgba(255,255,255,1) 49%, rgba(0,0,0,1) 100%);
 /* Main_todays */
 
 .info {
-  background-image: url(/img/BG_2.png);
+  background-image: url(img/back.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: auto;
   position: relative;
   padding: 2rem;
 }
